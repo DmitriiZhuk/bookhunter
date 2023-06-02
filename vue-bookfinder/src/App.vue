@@ -69,3 +69,17 @@ export default {
   },
 }
 </script>
+<style>
+.column--store {
+    width: 120px;
+}
+.column--price {
+    width: 120px;
+}
+.column--cover {
+    width: 140px
+}
+.column--action {
+    width: 120px;
+}
+</style>
