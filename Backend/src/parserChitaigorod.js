@@ -1,9 +1,8 @@
 import * as cheerio from 'cheerio';
 import axios from 'axios';
 
-export async function getChitaiGorod(request)
-{
-    const shopTitle = 'Chitai Gorod'
+export async function getChitaiGorod(request) {
+    const shopTitle = 'Chitai Gorod';
 
     const result = [];
     const response = await axios.get(`https://www.chitai-gorod.ru/search?phrase=${encodeURIComponent(request)}&onlyAvailable=1`);
@@ -25,7 +24,7 @@ export async function getChitaiGorod(request)
         ]);
     }
 
-    result.sort((a, b) => a[1] - b[1])
+    result.sort((a, b) => a[1] - b[1]);
 
-    return result
+    return result;
 }
