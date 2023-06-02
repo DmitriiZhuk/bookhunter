@@ -11,6 +11,7 @@ export async function getLabirint(request) {
 
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    await page.setDefaultNavigationTimeout(10 * 60 * 1000);
     await page.goto(link);
 
     // await page.waitForSelector(bookPrice)

@@ -3,10 +3,10 @@ import {getChitaiGorod} from './parserChitaigorod.js';
 import {getMyShop} from './parserMyshop.js';
 import {getLabirint} from './parserLabirint.js';
 
-export async function getAll(request = 'януш корчак') {
-    return await Promise.all([
+export function getAll(request = 'януш корчак') {
+    return Promise.all([
         getBook24(request),
-        getChitaiGorod(request),
+        //getChitaiGorod(request), //fixme: vpn needed
         getMyShop(request),
         getLabirint(request),
     ]);

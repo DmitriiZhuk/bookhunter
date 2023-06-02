@@ -1,0 +1,10 @@
+{
+  "uid": "bookhunter",
+  "append": true,
+  "watch": true,
+  "script": "index.js",
+  "sourceDir": "/var/www/bookhunter.dmitriizhuk.ru/server",
+  "logFile": "/var/www/bookhunter.dmitriizhuk.ru/logs/server.log",
+  "outFile": "/var/www/bookhunter.dmitriizhuk.ru/logs/out.log",
+  "errFile": "/var/www/bookhunter.dmitriizhuk.ru/logs/error.log"
+}
