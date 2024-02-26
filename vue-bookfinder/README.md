@@ -1,24 +1,18 @@
-# vue-bookfinder
+# Bookhunter
+Веб-приложение, позволяющее искать книгу по автору и/или наименованию в различных русскоязычных книжных интернет-магазинах с последующим сравнением полученных результатов по цене.
 
-## Project setup
-```
-npm install
-```
+## Задача
+Цель - создать веб-сервис, облегчающий поиск и сравнение цен по книгам, в которых есть возможная заинтересованность к покупке.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Краткое описание проекта:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Поиск должен включать в себя крупнейших “игроков” в сегменте книжных интернет-магазинов;
+Сервис должен быть простым и интуитивно понятным в использовании;
+Сервис должен быть адаптивным;
+Сервис должен предоставлять актуальные данные на момент запроса.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Backend
+Node.js, Express;
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Frontend
+html, css, bootstrap, js, vue;
